@@ -29,4 +29,7 @@ ggplot(students) +
 ## GPA
 ggplot(students) +
   geom_boxplot(aes(factor(admit), gpa))
+## RANK
+ggplot(students) +
+  geom_boxplot(aes(factor(admit), rank))
 
